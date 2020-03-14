@@ -1,0 +1,156 @@
+Request 1: 
+GET /root HTTP/1.1
+
+Response: 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:07 BDT 2020
+Content-Type: text/html
+Content-Length: 333
+
+
+
+Request 2: 
+GET /root/dir1 HTTP/1.1
+
+Response: 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:09 BDT 2020
+Content-Type: text/html
+Content-Length: 425
+
+
+
+Request 3: 
+GET /root/dir1/dir2 HTTP/1.1
+
+Response: 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:10 BDT 2020
+Content-Type: text/html
+Content-Length: 287
+
+
+
+Request 4: 
+GET /root/dir1/dir2/dir3 HTTP/1.1
+
+Response: 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:11 BDT 2020
+Content-Type: text/html
+Content-Length: 230
+
+
+
+Request 5: 
+GET /root/dir1/dir2/dir3/file3.txt HTTP/1.1
+
+Response: 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:28 BDT 2020
+Content-Type: application/force-download
+Content-Length: 0
+
+
+
+Request 6: 
+GET /root/dir1/file2.txt HTTP/1.1
+
+Response: 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:34 BDT 2020
+Content-Type: application/force-download
+Content-Length: 4
+
+
+
+Request 7: 
+GET /root/di HTTP/1.1
+
+Response: 
+HTTP/1.1 404 Not Found
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:43 BDT 2020
+Content-Type: text/html
+Content-Length: 234
+
+
+
+Request 8: 
+GET /root/d HTTP/1.1
+
+Response: 
+HTTP/1.1 404 Not Found
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:46 BDT 2020
+Content-Type: text/html
+Content-Length: 234
+
+
+
+Request 9: 
+GET /root HTTP/1.1
+
+Response: 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:49 BDT 2020
+Content-Type: text/html
+Content-Length: 333
+
+
+
+Request 10: 
+GET /favicon.ico HTTP/1.1
+
+Response: 
+HTTP/1.1 404 Not Found
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:49 BDT 2020
+Content-Type: text/html
+Content-Length: 234
+
+
+
+Request 11: 
+GET /ro HTTP/1.1
+
+Response: 
+HTTP/1.1 404 Not Found
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:50 BDT 2020
+Content-Type: text/html
+Content-Length: 234
+
+
+
+Request 12: 
+GET /root/dir1/dir2 HTTP/1.1
+
+Response: 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:09:59 BDT 2020
+Content-Type: text/html
+Content-Length: 287
+
+
+
+Request 13: 
+GET /root/dir1/dir2/send.txt HTTP/1.1
+
+Response: 
+HTTP/1.1 200 OK
+Server: Java HTTP Server: 1.0
+Date: Sun Mar 15 01:10:02 BDT 2020
+Content-Type: application/force-download
+Content-Length: 758
+
+
+
